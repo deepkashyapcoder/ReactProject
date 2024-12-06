@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+.bg-img {
+  background: url(images/grocery.webp);
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.banner-outer {
+  height: 80%;
+  display: grid;
+  place-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.banner-heading {
+  font-size: 47px;
+  font-weight: 700;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.product {
+  background-color: #F3F4F6;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bag{
+  width: 110px;
+  height: 100px;
+  background-color: #019376;
+  border-radius: 8px;
+  display: grid;
+  place-items: center;
+  color:white;
+  position: fixed;
+  right: -1%;
+  top: 40%;
+  z-index: 1000;
 }
